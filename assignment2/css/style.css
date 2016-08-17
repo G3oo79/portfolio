@@ -1,0 +1,43 @@
+html{
+	height: 100%;
+}
+body {
+	height: 100%;
+
+}
+
+.container-fluid {
+	background-color: #f1f1f1;
+	color: #a57e33;
+
+}
+
+
+
+
+@media only screen and (max-width: 960px){
+	body {
+		background-color: blue;
+	}
+	.container-fluid {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	body {
+		background-color: green;
+
+}
+
+.container-fluid{
+	position: static;
+	max-width: 100%;
+	
+}
+
+@media only screen and (max-width: 400px){
+	body {
+		background-color: yellow;
+	}
+}
