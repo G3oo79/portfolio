@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+	document.onkeyup = function(
+	) {
+
+	var computerChoice = Math.random()
+	if (computerChoice < 0.33) {
+	computerChoice = "r";
+	}
+	else if (computerChoice < 0.66) {
+	computerChoice = "p";
+	}
+	else {
+	computerChoice = "s";
+	}
+
+
+	// Determines which exact key was selected. Make it lowercase
+	var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
+
+	console.log("the user guessed");
+	console.log(userGuess);
+	console.log("the computer guessed");
+	console.log(computerGuess);
+
+	if(userguess === computerchoice) {
+		alert('it's a tie);
+	}
+
+		if (userguess === 'p') && (computerchoice 'r'){
+			alert('you win');
+		}
+
+		
+		if (userguess === 'r') && (computerchoice 's'){
+			alert('you win');
+		}
+
+		
+		if (userguess === 's') && (computerchoice 'p'){
+			alert('you win');
+		}
+
+		else {
+			alert(you loose)
+
+		}
+
+}
+
+</script>
+</body>
+</html>
